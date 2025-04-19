@@ -1,0 +1,6 @@
+services:
+  pdfa-overlay:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
