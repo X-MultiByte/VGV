@@ -16,8 +16,10 @@ def main():
 
             replacements = {
                 "WMY FOOD MARKETING SDN BHD": "VG VERSE TRADING",
-                "NO 100-02,":"8 JALAN TERATAI 74",
-                "JALAN ECO CASCADIA 6/2,":"TAMAN JOHOR JAYA" 
+                "NO 100-02,":"",
+                "JALAN ECO CASCADIA 6/2,":"8 JALAN TERATAI 74",
+                "TAMAN SETIA ECO CASCADIA,":"TAMAN JOHOR JAYA",
+                "81100 JOHOR BAHRU JOHOR": "81100 JOHOR BAHRU JOHOR"
             }
 
             boxes = extract_text_boxes(src_pdf, replacements)
